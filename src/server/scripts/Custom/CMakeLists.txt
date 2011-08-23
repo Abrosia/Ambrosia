@@ -10,6 +10,8 @@
 
 set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
+Custom/muj_custom_script.cpp
+Custom/npc_morph.cpp
 )
 
 message("  -> Prepared: Custom")

@@ -17,6 +17,11 @@
 
 #include "ScriptLoader.h"
 
+//custom
+void AddSC_muj_custom_script();
+void AddSC_npc_morph();
+
+
 //examples
 void AddSC_example_creature();
 void AddSC_example_escort();
@@ -1229,6 +1234,8 @@ void AddCustomScripts()
 {
 #ifdef SCRIPTS
     /* This is where custom scripts should be added. */
+	AddSC_muj_custom_script();
+	AddSC_npc_morph();
 
 #endif
 }
