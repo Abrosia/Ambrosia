@@ -20,7 +20,7 @@
 //custom
 void AddSC_muj_custom_script();
 void AddSC_npc_morph();
-
+void AddSC_custom_npc_doctor();
 
 //examples
 void AddSC_example_creature();
@@ -1236,6 +1236,7 @@ void AddCustomScripts()
     /* This is where custom scripts should be added. */
 	AddSC_muj_custom_script();
 	AddSC_npc_morph();
+	AddSC_custom_npc_doctor();
 
 #endif
 }
